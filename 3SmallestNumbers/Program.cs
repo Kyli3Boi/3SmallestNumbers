@@ -57,7 +57,7 @@ namespace _3SmallestNumbers
                 Console.WriteLine("Lowest number ({0}): {1}", i + 1, numbers[i]);
             }
 
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }
